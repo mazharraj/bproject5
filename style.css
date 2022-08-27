@@ -1,0 +1,110 @@
+
+.line{
+    height: 2px;
+    width: 430px;
+    background-color: rgb(214, 214, 214);
+}
+.line1{
+    height: 2px;
+    width: 380px;
+    background-color: rgb(214, 214, 214);
+}
+.product{
+    cursor: pointer;
+}
+
+#topcatagory{
+    background-color: #fafafa;
+    margin: 50px 0 !important;
+    padding: 20px 0 !important;
+}
+
+#contact{
+    background-color: #202020;
+    padding: 25px 0;
+}
+footer{
+    background-color: #000000;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    
+}
+.image img{
+    transition-duration: 0.5s;
+    
+    
+} 
+.image img:hover{
+    transform: scale(1.1);
+    
+    
+}
+#weight{
+    padding:5px 20px;
+    border-radius: 5px;
+    border-color: green;
+}
+#details{
+    margin-top: 130px !important;
+}
+
+/*-------===================================
+===============RESPONSIVE AREAS ============
+====================================-------*/
+
+
+/*-------EXTRA SMALL -------*/
+@media only screen and (min-width: 360px) {
+    .line{
+        display: none;
+    }
+    .line1{
+        display: none;
+    }
+    .navbar-brand img{
+        width: 45px;
+    }
+}
+
+/*------- SMALL (sm)-------*/
+@media only screen and (min-width: 576px) {
+    .line{
+        display: none;
+    }
+    .line1{
+        display: none;
+    }
+    .navbar-brand img{
+        width: 50px;
+    }
+}
+
+/*-------MEDIUM (md)-------*/
+@media only screen and (min-width: 768px) {
+    .line{
+        display: none;
+    }
+    .line1{
+        display: none;
+    }
+}
+
+/*-------LARGE (lg)-------*/
+@media only screen and (min-width: 992px) {
+    .line1{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+}
+
+/*-------EXTRA LARGE (xl)-------*/
+@media only screen and (min-width: 1200px) {
+}
+
+/*-------EXTRA EXTRA LARGE (xxl)-------*/
+@media only screen and (min-width: 1400px) {
+}
